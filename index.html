@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script type="module">
+      import clone from './clone.js'
+
+      //   var a = { a: 1, b: { b: 2 } }
+      //   var b = clone(a, true)
+      //   console.log(a, b, a === b, a.b === b.b)
+
+      // var a ={}
+      // var b = {}
+      // a.b=b
+      // b.a=a
+      // var c = clone(a, true)
+      // console.log(c)
+
+      // var s = Symbol(1)
+      // var a = {
+      //   [s]: 1
+      // }
+      // var b = {}
+      // var c = clone(a, true)
+      // console.log(a === c, a[s], c[s])
+
+      // var a = { a: { a: 1 } }
+      // var b = clone(a, false)
+      // console.log(a, b, a === b, a.a === b.a)
+    </script>
+  </body>
+</html>
